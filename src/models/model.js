@@ -25,11 +25,11 @@ const MoviesModel = sequelize.define("movies", {
       },
       min: {
         args: 1,
-        msg: "La edad tiene que ser mayor o igual que uno",
+        msg: "La calificacion tiene que ser mayor o igual que uno",
       },
       max: {
         args: 5,
-        msg: "La edad tiene que ser menor o igual a 5",
+        msg: "La calificacion tiene que ser menor o igual a 5",
       },
     },
   },
